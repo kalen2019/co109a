@@ -1,5 +1,7 @@
 1.Not
 
+<img src="hw1_pic/Not.jpg" width="300" height="200"  align=center />
+
 /**
  * Not gate:
  * out = not in
@@ -14,6 +16,8 @@ CHIP Not {
     Nand(a=in, b=in, out=out);
 }
 2.And
+
+<img src="hw1_pic/And.jpg" width="300" height="200"  align=center />
 
 /**
  * And gate: 
@@ -33,6 +37,8 @@ CHIP And {
 
 3.Or
 
+<img src="hw1_pic/Or.jpg" width="300" height="200"  align=center />
+
 /**
  * Or gate:
  * out = 1 if (a == 1 or b == 1)
@@ -51,6 +57,8 @@ CHIP Or {
 }
 
 4.Xor
+
+<img src="hw1_pic/Xor.jpg" width="300" height="200"  align=center />
 
 /**
  * Exclusive-or gate:
@@ -72,6 +80,8 @@ CHIP Xor {
 
 5.Mux
 
+<img src="hw1_pic/Mux.jpg" width="300" height="200"  align=center />
+
 /** 
  * Multiplexor:
  * out = a if sel == 0
@@ -91,6 +101,8 @@ CHIP Mux {
 }
 
 6.DMux
+
+<img src="hw1_pic/DMux.jpg" width="300" height="200"  align=center />
 
 /**
  * Demultiplexor:
