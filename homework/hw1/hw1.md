@@ -15,6 +15,7 @@ CHIP Not {
     // Put your code here:
     Nand(a=in, b=in, out=out);
 }
+
 2.And
 
 <img src="hw1_pic/And.jpg" width="300" height="200"  align=center />
