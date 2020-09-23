@@ -1,10 +1,5 @@
 1.Not
 
-|  in   |  out  |
-
-|   0   |   1   |
-|   1   |   0   |
-
 /**
  * Not gate:
  * out = not in
@@ -19,12 +14,6 @@ CHIP Not {
     Nand(a=in, b=in, out=out);
 }
 2.And
-
-|   a   |   b   |  out  |<p>
-|   0   |   0   |   0   |<p>
-|   0   |   1   |   0   |<p>
-|   1   |   0   |   0   |<p>
-|   1   |   1   |   1   |<p>
 
 /**
  * And gate: 
@@ -44,12 +33,6 @@ CHIP And {
 
 3.Or
 
-|   a   |   b   |  out  |<p>
-|   0   |   0   |   0   |<p>
-|   0   |   1   |   1   |<p>
-|   1   |   0   |   1   |<p>
-|   1   |   1   |   1   |<p>
-
 /**
  * Or gate:
  * out = 1 if (a == 1 or b == 1)
@@ -61,12 +44,6 @@ CHIP Or {
     OUT out;
 
 4.Xor
-
-|   a   |   b   |  out  |<p>
-|   0   |   0   |   0   |<p>
-|   0   |   1   |   1   |<p>
-|   1   |   0   |   1   |<p>
-|   1   |   1   |   0   |<p>
 
 /**
  * Exclusive-or gate:
@@ -94,16 +71,6 @@ CHIP Xor {
 
 5.Mux
 
-|   a   |   b   |  sel  |  out  |<p>
-|   0   |   0   |   0   |   0   |<p>
-|   0   |   0   |   1   |   0   |<p>
-|   0   |   1   |   0   |   0   |<p>
-|   0   |   1   |   1   |   1   |<p>
-|   1   |   0   |   0   |   1   |<p>
-|   1   |   0   |   1   |   0   |<p>
-|   1   |   1   |   0   |   1   |<p>
-|   1   |   1   |   1   |   1   |<p>
-
 /** 
  * Multiplexor:
  * out = a if sel == 0
@@ -123,12 +90,6 @@ CHIP Mux {
 }
 
 6.DMux
-
-|  in   |  sel  |   a   |   b   |<p>
-|   0   |   0   |   0   |   0   |<p>
-|   0   |   1   |   0   |   0   |<p>
-|   1   |   0   |   1   |   0   |<p>
-|   1   |   1   |   0   |   1   |<p>
 
 /**
  * Demultiplexor:
