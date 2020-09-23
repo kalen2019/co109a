@@ -43,6 +43,13 @@ CHIP Or {
     IN a, b;
     OUT out;
 
+    PARTS:
+    // Put your code here:
+    Not(in=a, out=na);
+    Not(in=b, out=nb);
+    Nand(a=na, b=nb, out=out);
+}
+
 4.Xor
 
 /**
@@ -61,12 +68,6 @@ CHIP Xor {
     And(a=a, b=nb, out=aa);
     And(a=na, b=b, out=ab);
     Or(a=aa, b=ab, out=out);
-}
-    PARTS:
-    // Put your code here:
-    Not(in=a, out=na);
-    Not(in=b, out=nb);
-    Nand(a=na, b=nb, out=out);
 }
 
 5.Mux
