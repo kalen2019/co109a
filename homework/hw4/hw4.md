@@ -77,4 +77,4 @@ CHIP ALU {
     
 }
 
-<img src="hw4_pic/ALU.jpg" width="300" height="200"  align=center />
+<img src="hw4_pic/ALU.jpg" width="800" height="600"  align=center />
