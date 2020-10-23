@@ -76,3 +76,5 @@ CHIP ALU {
     Not(in=orout, out=zr);
     
 }
+
+<img src="hw4_pic/ALU.jpg" width="300" height="200"  align=center />
