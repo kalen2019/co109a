@@ -10,6 +10,6 @@
   
 習題與筆記中參考了很多資料，並慢慢完成。  
   
-參考資料: 
+參考資料:  
 [組合語言](http://programmermagazine.github.io/mag/ymag201506/focus6.html)  
 [老師的gitlab](https://gitlab.com/ccc109/co)  
