@@ -11,7 +11,7 @@ Fill:
     D;JNE   // if press keyboard go to LOOP1
     @LOOP2
     D;JEQ   // if do not press any keyboard go to LOOP2
-(LOOP1)
+    (LOOP1)
     @R0
     D=M     // D = R0
     M=M-1   // R0 = R0 - 1
@@ -22,7 +22,7 @@ Fill:
     M=-1    // set screen black
     @LOOP1
     0;JMP   // go to LOOP
-(LOOP2)
+    (LOOP2)
     @R0     
     D=M     // D = R0
     M=M-1   // R0 = R0 - 1
