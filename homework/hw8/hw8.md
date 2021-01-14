@@ -5,7 +5,7 @@ mult:
     M=0   //R2 = 0  reset R2  
     @i  
     M=0   // count  
-(LOOP)  
+    (LOOP)  
     @R0  
     D=M   //D=R0  
     @i  
@@ -21,7 +21,7 @@ mult:
     M=M+1 //i=i+1  
     @LOOP  
     0;JMP // go to LOOP  
-(END)  
+    (END)  
     @END  
     0;JMP //fine  
 
