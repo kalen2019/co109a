@@ -1,5 +1,4 @@
-###
-      code:  
+code:  
       @R0 //pointing R0  
       M=1 //R0 = 1  
       @R0 //line 2 (start loop)  
